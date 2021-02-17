@@ -14,5 +14,4 @@ except ModuleNotFoundError:
 
 
 if __name__ == '__main__':
-    print("this machine is window") if isWindow else print("this machine is not window")
-    
+    print("This machine's os is window") if isWindow else print("This machine's os is not window")
