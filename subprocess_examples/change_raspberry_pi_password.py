@@ -1,4 +1,6 @@
 # This code should be run as root
+# 사용자의 어떤 입력도 없이 패스워드를 바꾸기위한 코드 스니펫 
+
 import subprocess
 from time import sleep
 
@@ -30,4 +32,3 @@ def change_password(user='pi', password=None) -> None: #return None 인 프로�
 
 if __name__ == "__main__":
     change_password(password="raspberry")
-    
